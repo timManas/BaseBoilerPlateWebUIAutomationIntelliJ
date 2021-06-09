@@ -1,4 +1,12 @@
 Notes
+
+1. NOTICE all your imports have .junit in them ???
+Ex:
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.Cucumber;
+import org.junit.runner.RunWith;
+- If you dont, you could fuck your shit up fam
+
 1. If you encounter this error:
 Internal error (java.lang.reflect.InaccessibleObjectException): Unable to make protected void java.util.ResourceBundle.setParent(java.util.ResourceBundle) accessible: module java.base does not "opens java.util" to unnamed module @13acb0d1
 java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.util.ResourceBundle.setParent(java.util.ResourceBundle) accessible: module java.base does not "opens java.util" to unnamed module @13acb0d1
